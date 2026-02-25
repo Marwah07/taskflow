@@ -1,23 +1,91 @@
-# TaskFlow - Task Management App
+# TaskFlow - Task Management Web App
 
-TaskFlow is a web-based task management application built using PHP, MySQL, and Bootstrap.
+TaskFlow adalah aplikasi manajemen tugas berbasis web yang memungkinkan user untuk membuat, mengedit, dan menghapus task dengan sistem autentikasi login & registrasi.
 
-## Features
+Project ini dibuat untuk melatih implementasi CRUD, autentikasi, dan dashboard statistik menggunakan PHP dan MySQL.
 
-- User authentication (login & register)
-- Create, edit, delete tasks
-- Task status tracking (To Do, Doing, Done)
-- Dashboard with statistics & progress bar
-- Search and filter tasks
-- Modern responsive UI
+---
 
-## Tech Stack
+## 🚀 Features
 
-- PHP
+- User Registration & Login
+- Secure Authentication
+- Add Task
+- Edit Task
+- Delete Task
+- Dashboard with Task Statistics
+- Modern Card View UI
+- Responsive Design (Bootstrap)
+
+---
+
+## 🛠 Tech Stack
+
+- PHP (Native)
 - MySQL
 - Bootstrap 5
-- HTML, CSS
+- HTML & CSS
 
-## Author
+---
+
+## 📸 Preview
+
+### 🔐 Login Page
+![Login Preview](login_task.png)
+
+### 📊 Dashboard
+![Dashboard Preview](dashboard_taskflow.png)
+
+### ✏️ Add / Edit Task
+![Task Form Preview](add_task.png)
+
+---
+
+## 🗂 Database Structure
+
+Example table structure:
+
+**users**
+- id
+- name
+- email
+- password
+
+**tasks**
+- id
+- user_id
+- title
+- description
+- status
+- created_at
+
+---
+
+## 📌 Future Improvements
+- Task filtering by status
+- Pagination
+- User profile page
+- Search feature
+## ⚙️ Installation
+
+1. Clone repository
+2. Import database ke phpMyAdmin
+3. Sesuaikan file `config.php` dengan konfigurasi database
+4. Jalankan di localhost (XAMPP / Laragon)
+
+---
+
+## 🎯 Purpose of This Project
+
+Project ini dibuat sebagai bagian dari portfolio untuk menunjukkan kemampuan dalam:
+- Backend Development (PHP)
+- Database Management
+- Authentication System
+- CRUD Implementation
+- Basic UI/UX structuring
+
+---
+
+## 👩‍💻 Author
 
 Marwah Hilalliyah
